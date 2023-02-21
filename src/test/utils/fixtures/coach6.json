@@ -1,0 +1,431 @@
+{
+  "get": "coachs",
+  "parameters": {
+    "team": "6"
+  },
+  "errors": [],
+  "results": 6,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "id": 333,
+      "name": "Tite",
+      "firstname": "Adenor Leonardo",
+      "lastname": "Bacchi",
+      "age": 62,
+      "birth": {
+        "date": "1961-05-25",
+        "place": "Caxias do Sul",
+        "country": "Brazil"
+      },
+      "nationality": "Brazil",
+      "height": null,
+      "weight": null,
+      "photo": "https://media-3.api-sports.io/football/coachs/333.png",
+      "team": {
+        "id": 6,
+        "name": "Brazil",
+        "logo": "https://media.api-sports.io/football/teams/6.png"
+      },
+      "career": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "start": "2016-06-01",
+          "end": "2022-12-01"
+        },
+        {
+          "team": {
+            "id": 131,
+            "name": "Corinthians",
+            "logo": "https://media-3.api-sports.io/football/teams/131.png"
+          },
+          "start": "2014-12-01",
+          "end": "2016-06-01"
+        },
+        {
+          "team": {
+            "id": 131,
+            "name": "Corinthians",
+            "logo": "https://media-3.api-sports.io/football/teams/131.png"
+          },
+          "start": "2010-10-01",
+          "end": "2013-12-01"
+        },
+        {
+          "team": {
+            "id": 2937,
+            "name": "Al Wahda",
+            "logo": "https://media.api-sports.io/football/teams/2937.png"
+          },
+          "start": "2010-09-01",
+          "end": "2010-10-01"
+        }
+      ]
+    },
+    {
+      "id": 5150,
+      "name": "Ramón Menezes",
+      "firstname": "Ramón",
+      "lastname": "Menezes Hubner",
+      "age": 51,
+      "birth": {
+        "date": "1972-06-30",
+        "place": "Contagem",
+        "country": "Brazil"
+      },
+      "nationality": "Brazil",
+      "height": "170 cm",
+      "weight": "70 kg",
+      "photo": "https://media-3.api-sports.io/football/coachs/5150.png",
+      "team": {
+        "id": 6,
+        "name": "Brazil",
+        "logo": "https://media.api-sports.io/football/teams/6.png"
+      },
+      "career": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "start": "2023-02-01",
+          "end": null
+        },
+        {
+          "team": {
+            "id": 16200,
+            "name": "Brazil U20",
+            "logo": "https://media.api-sports.io/football/teams/16200.png"
+          },
+          "start": "2023-01-01",
+          "end": null
+        },
+        {
+          "team": {
+            "id": 136,
+            "name": "Vitória",
+            "logo": "https://media-3.api-sports.io/football/teams/136.png"
+          },
+          "start": "2021-06-01",
+          "end": "2021-08-01"
+        },
+        {
+          "team": {
+            "id": 146,
+            "name": "CRB",
+            "logo": "https://media-3.api-sports.io/football/teams/146.png"
+          },
+          "start": "2020-11-01",
+          "end": "2020-12-01"
+        },
+        {
+          "team": {
+            "id": 133,
+            "name": "Vasco da Gama",
+            "logo": "https://media.api-sports.io/football/teams/133.png"
+          },
+          "start": "2020-03-01",
+          "end": "2020-10-01"
+        },
+        {
+          "team": {
+            "id": 2227,
+            "name": "Tombense",
+            "logo": "https://media-3.api-sports.io/football/teams/2227.png"
+          },
+          "start": "2017-12-01",
+          "end": "2018-07-01"
+        },
+        {
+          "team": {
+            "id": 7852,
+            "name": "Anápolis",
+            "logo": "https://media-3.api-sports.io/football/teams/7852.png"
+          },
+          "start": "2017-05-01",
+          "end": "2017-12-01"
+        },
+        {
+          "team": {
+            "id": 795,
+            "name": "Joinville",
+            "logo": "https://media.api-sports.io/football/teams/795.png"
+          },
+          "start": "2016-09-01",
+          "end": "2017-01-01"
+        },
+        {
+          "team": {
+            "id": 12296,
+            "name": "Guarani MG",
+            "logo": "https://media-3.api-sports.io/football/teams/12296.png"
+          },
+          "start": "2016-03-01",
+          "end": "2016-09-01"
+        },
+        {
+          "team": {
+            "id": 7852,
+            "name": "Anápolis",
+            "logo": "https://media-3.api-sports.io/football/teams/7852.png"
+          },
+          "start": "2016-01-01",
+          "end": "2016-02-01"
+        }
+      ]
+    },
+    {
+      "id": 5751,
+      "name": "Dunga",
+      "firstname": "Carlos Caetano",
+      "lastname": "Bledorn Verri",
+      "age": 60,
+      "birth": {
+        "date": "1963-10-31",
+        "place": "Ijuí",
+        "country": "Brazil"
+      },
+      "nationality": "Brazil",
+      "height": "177 cm",
+      "weight": "75 kg",
+      "photo": "https://media.api-sports.io/football/coachs/5751.png",
+      "team": {
+        "id": 6,
+        "name": "Brazil",
+        "logo": "https://media.api-sports.io/football/teams/6.png"
+      },
+      "career": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "start": "2014-07-01",
+          "end": "2016-06-01"
+        },
+        {
+          "team": {
+            "id": 119,
+            "name": "Internacional",
+            "logo": "https://media-3.api-sports.io/football/teams/119.png"
+          },
+          "start": "2012-12-01",
+          "end": "2013-10-01"
+        },
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media-3.api-sports.io/football/teams/6.png"
+          },
+          "start": "2006-07-01",
+          "end": "2010-07-01"
+        }
+      ]
+    },
+    {
+      "id": 8895,
+      "name": "P. Sundhage",
+      "firstname": "Pia Mariane",
+      "lastname": "Sundhage",
+      "age": 63,
+      "birth": {
+        "date": "1960-02-13",
+        "place": "Ulricehamn",
+        "country": "Sweden"
+      },
+      "nationality": "Sweden",
+      "height": null,
+      "weight": null,
+      "photo": "https://media-3.api-sports.io/football/coachs/8895.png",
+      "team": {
+        "id": 6,
+        "name": "Brazil",
+        "logo": "https://media-3.api-sports.io/football/teams/6.png"
+      },
+      "career": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media-3.api-sports.io/football/teams/6.png"
+          },
+          "start": "2019-07-01",
+          "end": null
+        },
+        {
+          "team": {
+            "id": 17980,
+            "name": "Sweden U17",
+            "logo": "https://media-3.api-sports.io/football/teams/17980.png"
+          },
+          "start": "2018-03-01",
+          "end": "2018-10-01"
+        },
+        {
+          "team": {
+            "id": 5,
+            "name": "Sweden",
+            "logo": "https://media-3.api-sports.io/football/teams/5.png"
+          },
+          "start": "2012-09-01",
+          "end": "2017-08-01"
+        },
+        {
+          "team": {
+            "id": 2384,
+            "name": "United States",
+            "logo": "https://media-3.api-sports.io/football/teams/2384.png"
+          },
+          "start": "2007-11-01",
+          "end": "2012-09-01"
+        }
+      ]
+    },
+    {
+      "id": 8899,
+      "name": "Vadão",
+      "firstname": "Oswaldo",
+      "lastname": "Fumeiro Alvarez",
+      "age": 67,
+      "birth": {
+        "date": "1956-08-21",
+        "place": "Monte Azul Paulista",
+        "country": "Brazil"
+      },
+      "nationality": "Brazil",
+      "height": null,
+      "weight": null,
+      "photo": "https://media.api-sports.io/football/coachs/8899.png",
+      "team": {
+        "id": 6,
+        "name": "Brazil",
+        "logo": "https://media.api-sports.io/football/teams/6.png"
+      },
+      "career": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "start": "2017-09-01",
+          "end": "2019-07-01"
+        },
+        {
+          "team": {
+            "id": 138,
+            "name": "Guarani",
+            "logo": "https://media.api-sports.io/football/teams/138.png"
+          },
+          "start": "2017-03-01",
+          "end": "2017-08-01"
+        },
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media-3.api-sports.io/football/teams/6.png"
+          },
+          "start": "2015-01-01",
+          "end": "2016-11-01"
+        },
+        {
+          "team": {
+            "id": 139,
+            "name": "Ponte Preta",
+            "logo": "https://media-3.api-sports.io/football/teams/139.png"
+          },
+          "start": "2014-02-01",
+          "end": "2014-04-01"
+        },
+        {
+          "team": {
+            "id": 140,
+            "name": "Criciúma",
+            "logo": "https://media-3.api-sports.io/football/teams/140.png"
+          },
+          "start": "2013-03-01",
+          "end": "2013-08-01"
+        },
+        {
+          "team": {
+            "id": 123,
+            "name": "Sport Recife",
+            "logo": "https://media.api-sports.io/football/teams/123.png"
+          },
+          "start": "2012-12-01",
+          "end": "2013-03-01"
+        },
+        {
+          "team": {
+            "id": 138,
+            "name": "Guarani",
+            "logo": "https://media.api-sports.io/football/teams/138.png"
+          },
+          "start": "2012-01-01",
+          "end": "2012-10-01"
+        },
+        {
+          "team": {
+            "id": 7786,
+            "name": "São Caetano",
+            "logo": "https://media-3.api-sports.io/football/teams/7786.png"
+          },
+          "start": "2011-07-01",
+          "end": "2011-09-01"
+        },
+        {
+          "team": {
+            "id": 1214,
+            "name": "Portuguesa",
+            "logo": "https://media.api-sports.io/football/teams/1214.png"
+          },
+          "start": "2010-04-01",
+          "end": "2010-10-01"
+        }
+      ]
+    },
+    {
+      "id": 14716,
+      "name": "Píndaro Carvalho",
+      "firstname": "Píndaro",
+      "lastname": "de Carvalho Rodrigues",
+      "age": 131,
+      "birth": {
+        "date": "1892-06-01",
+        "place": "São Paulo",
+        "country": "Brazil"
+      },
+      "nationality": "Brazil",
+      "height": null,
+      "weight": null,
+      "photo": "https://media-3.api-sports.io/football/coachs/14716.png",
+      "team": {
+        "id": 6,
+        "name": "Brazil",
+        "logo": "https://media-3.api-sports.io/football/teams/6.png"
+      },
+      "career": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media-3.api-sports.io/football/teams/6.png"
+          },
+          "start": "1930-07-01",
+          "end": "1930-07-01"
+        }
+      ]
+    }
+  ]
+}

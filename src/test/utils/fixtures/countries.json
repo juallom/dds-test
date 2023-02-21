@@ -1,0 +1,95 @@
+{
+  "get": "teams",
+  "parameters": {
+    "league": "1",
+    "season": "2022"
+  },
+  "errors": [],
+  "results": 4,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "team": {
+        "id": 1,
+        "name": "Belgium",
+        "code": "BEL",
+        "country": "Belgium",
+        "founded": 1895,
+        "national": true,
+        "logo": "https://media.api-sports.io/football/teams/1.png"
+      },
+      "venue": {
+        "id": 173,
+        "name": "Stade Roi Baudouin",
+        "address": "Avenue de Marathon 135/2",
+        "city": "Brussel",
+        "capacity": 50093,
+        "surface": "grass",
+        "image": "https://media-3.api-sports.io/football/venues/173.png"
+      }
+    },
+    {
+      "team": {
+        "id": 2,
+        "name": "France",
+        "code": "FRA",
+        "country": "France",
+        "founded": 1919,
+        "national": true,
+        "logo": "https://media-3.api-sports.io/football/teams/2.png"
+      },
+      "venue": {
+        "id": 631,
+        "name": "Stade de France",
+        "address": "Rue Jules Rimet",
+        "city": "Saint-Denis",
+        "capacity": 81338,
+        "surface": "grass",
+        "image": "https://media-3.api-sports.io/football/venues/631.png"
+      }
+    },
+    {
+      "team": {
+        "id": 3,
+        "name": "Croatia",
+        "code": "CRO",
+        "country": "Croatia",
+        "founded": 1912,
+        "national": true,
+        "logo": "https://media.api-sports.io/football/teams/3.png"
+      },
+      "venue": {
+        "id": 412,
+        "name": "Stadion Maksimir",
+        "address": "Maksimirska cesta 128",
+        "city": "Zagreb",
+        "capacity": 37168,
+        "surface": "grass",
+        "image": "https://media-3.api-sports.io/football/venues/412.png"
+      }
+    },
+    {
+      "team": {
+        "id": 6,
+        "name": "Brazil",
+        "code": "BRA",
+        "country": "Brazil",
+        "founded": 1914,
+        "national": true,
+        "logo": "https://media.api-sports.io/football/teams/6.png"
+      },
+      "venue": {
+        "id": 204,
+        "name": "Estadio Jornalista Mário Filho (Maracanã)",
+        "address": "Rua Professor Eurico Rabelo, Maracanã",
+        "city": "Rio de Janeiro, Rio de Janeiro",
+        "capacity": 78838,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/204.png"
+      }
+    }
+  ]
+}

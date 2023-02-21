@@ -1,0 +1,155 @@
+{
+  "get": "coachs",
+  "parameters": {
+    "team": "2"
+  },
+  "errors": [],
+  "results": 3,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "id": 180,
+      "name": "D. Deschamps",
+      "firstname": "Didier",
+      "lastname": "Deschamps",
+      "age": 55,
+      "birth": {
+        "date": "1968-10-15",
+        "place": "Bayonne",
+        "country": "France"
+      },
+      "nationality": "France",
+      "height": null,
+      "weight": null,
+      "photo": "https://media-3.api-sports.io/football/coachs/180.png",
+      "team": {
+        "id": 2,
+        "name": "France",
+        "logo": "https://media-3.api-sports.io/football/teams/2.png"
+      },
+      "career": [
+        {
+          "team": {
+            "id": 2,
+            "name": "France",
+            "logo": "https://media-3.api-sports.io/football/teams/2.png"
+          },
+          "start": "2012-07-01",
+          "end": null
+        },
+        {
+          "team": {
+            "id": 81,
+            "name": "Marseille",
+            "logo": "https://media.api-sports.io/football/teams/81.png"
+          },
+          "start": "2009-07-01",
+          "end": "2012-07-01"
+        },
+        {
+          "team": {
+            "id": 496,
+            "name": "Juventus",
+            "logo": "https://media.api-sports.io/football/teams/496.png"
+          },
+          "start": "2006-07-01",
+          "end": "2007-06-01"
+        },
+        {
+          "team": {
+            "id": 91,
+            "name": "Monaco",
+            "logo": "https://media.api-sports.io/football/teams/91.png"
+          },
+          "start": "2001-07-01",
+          "end": "2005-09-01"
+        }
+      ]
+    },
+    {
+      "id": 8898,
+      "name": "C. Diacre",
+      "firstname": "Corinne Catherine",
+      "lastname": "Diacre",
+      "age": 49,
+      "birth": {
+        "date": "1974-08-04",
+        "place": "Croix",
+        "country": "France"
+      },
+      "nationality": "France",
+      "height": null,
+      "weight": null,
+      "photo": "https://media-3.api-sports.io/football/coachs/8898.png",
+      "team": {
+        "id": 2,
+        "name": "France",
+        "logo": "https://media.api-sports.io/football/teams/2.png"
+      },
+      "career": [
+        {
+          "team": {
+            "id": 2,
+            "name": "France",
+            "logo": "https://media.api-sports.io/football/teams/2.png"
+          },
+          "start": "2017-08-01",
+          "end": null
+        },
+        {
+          "team": {
+            "id": 99,
+            "name": "Clermont",
+            "logo": "https://media.api-sports.io/football/teams/99.png"
+          },
+          "start": "2014-07-01",
+          "end": "2017-08-01"
+        },
+        {
+          "team": {
+            "id": null,
+            "name": "Soyaux",
+            "logo": null
+          },
+          "start": "2011-07-01",
+          "end": "2013-06-01"
+        }
+      ]
+    },
+    {
+      "id": 14699,
+      "name": "R. Caudron",
+      "firstname": "Raoul",
+      "lastname": "Caudron",
+      "age": 140,
+      "birth": {
+        "date": "1883-12-07",
+        "place": "Paris",
+        "country": "France"
+      },
+      "nationality": "France",
+      "height": null,
+      "weight": null,
+      "photo": "https://media-3.api-sports.io/football/coachs/14699.png",
+      "team": {
+        "id": 2,
+        "name": "France",
+        "logo": "https://media.api-sports.io/football/teams/2.png"
+      },
+      "career": [
+        {
+          "team": {
+            "id": 2,
+            "name": "France",
+            "logo": "https://media.api-sports.io/football/teams/2.png"
+          },
+          "start": "1930-07-01",
+          "end": "1930-07-01"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "get": "coachs",
+  "parameters": {
+    "team": "1"
+  },
+  "errors": [],
+  "results": 2,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "id": 13713,
+      "name": "I. Serneels",
+      "firstname": "Ives",
+      "lastname": "Serneels",
+      "age": 51,
+      "birth": {
+        "date": "1972-10-16",
+        "place": null,
+        "country": "Belgium"
+      },
+      "nationality": "Belgium",
+      "height": null,
+      "weight": null,
+      "photo": "https://media-3.api-sports.io/football/coachs/13713.png",
+      "team": {
+        "id": 1,
+        "name": "Belgium",
+        "logo": "https://media.api-sports.io/football/teams/1.png"
+      },
+      "career": [
+        {
+          "team": {
+            "id": 1,
+            "name": "Belgium",
+            "logo": "https://media.api-sports.io/football/teams/1.png"
+          },
+          "start": "2013-01-01",
+          "end": null
+        },
+        {
+          "team": {
+            "id": 10327,
+            "name": "Belgium U19",
+            "logo": "https://media-3.api-sports.io/football/teams/10327.png"
+          },
+          "start": "2012-07-01",
+          "end": "2013-04-01"
+        }
+      ]
+    },
+    {
+      "id": 14702,
+      "name": "H. Goetinck",
+      "firstname": "Hector",
+      "lastname": "Goetinck",
+      "age": 137,
+      "birth": {
+        "date": "1886-03-05",
+        "place": null,
+        "country": "Belgium"
+      },
+      "nationality": "Belgium",
+      "height": null,
+      "weight": null,
+      "photo": "https://media-3.api-sports.io/football/coachs/14702.png",
+      "team": {
+        "id": 1,
+        "name": "Belgium",
+        "logo": "https://media-3.api-sports.io/football/teams/1.png"
+      },
+      "career": [
+        {
+          "team": {
+            "id": 1,
+            "name": "Belgium",
+            "logo": "https://media-3.api-sports.io/football/teams/1.png"
+          },
+          "start": "1930-07-01",
+          "end": "1934-05-01"
+        }
+      ]
+    }
+  ]
+}

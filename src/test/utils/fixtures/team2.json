@@ -1,0 +1,223 @@
+{
+  "get": "players/squads",
+  "parameters": {
+    "team": "2"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "team": {
+        "id": 2,
+        "name": "France",
+        "logo": "https://media.api-sports.io/football/teams/2.png"
+      },
+      "players": [
+        {
+          "id": 253,
+          "name": "A. Aréola",
+          "age": 30,
+          "number": 23,
+          "position": "Goalkeeper",
+          "photo": "https://media-3.api-sports.io/football/players/253.png"
+        },
+        {
+          "id": 159,
+          "name": "H. Lloris",
+          "age": 37,
+          "number": 1,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/159.png"
+        },
+        {
+          "id": 1897,
+          "name": "S. Mandanda",
+          "age": 38,
+          "number": 16,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/1897.png"
+        },
+        {
+          "id": 21998,
+          "name": "Axel Wilson Arthur Disasi Mhakinis Belho",
+          "age": 25,
+          "number": 3,
+          "position": "Defender",
+          "photo": "https://media-3.api-sports.io/football/players/21998.png"
+        },
+        {
+          "id": 33,
+          "name": "Lucas François Bernard Hernández",
+          "age": 27,
+          "number": 21,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/33.png"
+        },
+        {
+          "id": 47300,
+          "name": "T. Hernández",
+          "age": 26,
+          "number": 22,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/47300.png"
+        },
+        {
+          "id": 1145,
+          "name": "Ibrahima Konaté",
+          "age": 24,
+          "number": 24,
+          "position": "Defender",
+          "photo": "https://media-3.api-sports.io/football/players/1145.png"
+        },
+        {
+          "id": 1257,
+          "name": "Jules Olivier Koundé",
+          "age": 25,
+          "number": 5,
+          "position": "Defender",
+          "photo": "https://media-3.api-sports.io/football/players/1257.png"
+        },
+        {
+          "id": 2725,
+          "name": "Benjamin Jacques Marcel Pavard",
+          "age": 27,
+          "number": 2,
+          "position": "Defender",
+          "photo": "https://media-3.api-sports.io/football/players/2725.png"
+        },
+        {
+          "id": 22090,
+          "name": "W. Saliba",
+          "age": 22,
+          "number": 17,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/22090.png"
+        },
+        {
+          "id": 1149,
+          "name": "Dayotchanculle Oswald Upamecano",
+          "age": 25,
+          "number": 18,
+          "position": "Defender",
+          "photo": "https://media-3.api-sports.io/football/players/1149.png"
+        },
+        {
+          "id": 742,
+          "name": "Raphaël Xavier Varane",
+          "age": 30,
+          "number": 4,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/742.png"
+        },
+        {
+          "id": 2207,
+          "name": "E. Camavinga",
+          "age": 21,
+          "number": 25,
+          "position": "Midfielder",
+          "photo": "https://media-3.api-sports.io/football/players/2207.png"
+        },
+        {
+          "id": 22254,
+          "name": "Y. Fofana",
+          "age": 24,
+          "number": 13,
+          "position": "Midfielder",
+          "photo": "https://media-3.api-sports.io/football/players/22254.png"
+        },
+        {
+          "id": 1454,
+          "name": "M. Guendouzi",
+          "age": 24,
+          "number": 6,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/1454.png"
+        },
+        {
+          "id": 272,
+          "name": "A. Rabiot",
+          "age": 28,
+          "number": 14,
+          "position": "Midfielder",
+          "photo": "https://media-3.api-sports.io/football/players/272.png"
+        },
+        {
+          "id": 1271,
+          "name": "A. Tchouaméni",
+          "age": 23,
+          "number": 8,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/1271.png"
+        },
+        {
+          "id": 30409,
+          "name": "J. Veretout",
+          "age": 30,
+          "number": 15,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/30409.png"
+        },
+        {
+          "id": 508,
+          "name": "K. Coman",
+          "age": 27,
+          "number": 20,
+          "position": "Attacker",
+          "photo": "https://media-3.api-sports.io/football/players/508.png"
+        },
+        {
+          "id": 153,
+          "name": "O. Dembélé",
+          "age": 26,
+          "number": 11,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/153.png"
+        },
+        {
+          "id": 2295,
+          "name": "O. Giroud",
+          "age": 37,
+          "number": 9,
+          "position": "Attacker",
+          "photo": "https://media-3.api-sports.io/football/players/2295.png"
+        },
+        {
+          "id": 56,
+          "name": "A. Griezmann",
+          "age": 32,
+          "number": 7,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/56.png"
+        },
+        {
+          "id": 21104,
+          "name": "R. Kolo Muani",
+          "age": 25,
+          "number": 12,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/21104.png"
+        },
+        {
+          "id": 278,
+          "name": "K. Mbappé",
+          "age": 25,
+          "number": 10,
+          "position": "Attacker",
+          "photo": "https://media-3.api-sports.io/football/players/278.png"
+        },
+        {
+          "id": 21509,
+          "name": "M. Thuram",
+          "age": 26,
+          "number": 26,
+          "position": "Attacker",
+          "photo": "https://media-3.api-sports.io/football/players/21509.png"
+        }
+      ]
+    }
+  ]
+}

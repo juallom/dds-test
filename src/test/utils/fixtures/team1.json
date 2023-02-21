@@ -1,0 +1,231 @@
+{
+  "get": "players/squads",
+  "parameters": {
+    "team": "1"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "team": {
+        "id": 1,
+        "name": "Belgium",
+        "logo": "https://media.api-sports.io/football/teams/1.png"
+      },
+      "players": [
+        {
+          "id": 2918,
+          "name": "K. Casteels",
+          "age": 31,
+          "number": 13,
+          "position": "Goalkeeper",
+          "photo": "https://media-3.api-sports.io/football/players/2918.png"
+        },
+        {
+          "id": 730,
+          "name": "T. Courtois",
+          "age": 31,
+          "number": 1,
+          "position": "Goalkeeper",
+          "photo": "https://media-3.api-sports.io/football/players/730.png"
+        },
+        {
+          "id": 282,
+          "name": "S. Mignolet",
+          "age": 35,
+          "number": 12,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/282.png"
+        },
+        {
+          "id": 162,
+          "name": "Toby Albertine Maurits Alderweireld",
+          "age": 34,
+          "number": 2,
+          "position": "Defender",
+          "photo": "https://media-3.api-sports.io/football/players/162.png"
+        },
+        {
+          "id": 2920,
+          "name": "Timothy Castagne",
+          "age": 28,
+          "number": 21,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/2920.png"
+        },
+        {
+          "id": 304228,
+          "name": "Z. Debast",
+          "age": 20,
+          "number": 26,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/304228.png"
+        },
+        {
+          "id": 2922,
+          "name": "Leander Dendoncker",
+          "age": 28,
+          "number": 19,
+          "position": "Defender",
+          "photo": "https://media-3.api-sports.io/football/players/2922.png"
+        },
+        {
+          "id": 8694,
+          "name": "Wout Felix Lina Faes",
+          "age": 25,
+          "number": 4,
+          "position": "Defender",
+          "photo": "https://media-3.api-sports.io/football/players/8694.png"
+        },
+        {
+          "id": 264,
+          "name": "Thomas Andre Meunier",
+          "age": 32,
+          "number": 15,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/264.png"
+        },
+        {
+          "id": 204043,
+          "name": "A. Theate",
+          "age": 23,
+          "number": 3,
+          "position": "Defender",
+          "photo": "https://media-3.api-sports.io/football/players/204043.png"
+        },
+        {
+          "id": 170,
+          "name": "Jan Vertonghen",
+          "age": 36,
+          "number": 5,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/170.png"
+        },
+        {
+          "id": 629,
+          "name": "K. De Bruyne",
+          "age": 32,
+          "number": 7,
+          "position": "Midfielder",
+          "photo": "https://media-3.api-sports.io/football/players/629.png"
+        },
+        {
+          "id": 147859,
+          "name": "C. De Ketelaere",
+          "age": 22,
+          "number": 22,
+          "position": "Midfielder",
+          "photo": "https://media-3.api-sports.io/football/players/147859.png"
+        },
+        {
+          "id": 2923,
+          "name": "Y. Carrasco",
+          "age": 30,
+          "number": 11,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/2923.png"
+        },
+        {
+          "id": 2929,
+          "name": "T. Hazard",
+          "age": 30,
+          "number": 16,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/2929.png"
+        },
+        {
+          "id": 20,
+          "name": "A. Witsel",
+          "age": 34,
+          "number": 6,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/20.png"
+        },
+        {
+          "id": 162714,
+          "name": "A. Onana",
+          "age": 22,
+          "number": 18,
+          "position": "Midfielder",
+          "photo": "https://media-3.api-sports.io/football/players/162714.png"
+        },
+        {
+          "id": 2926,
+          "name": "Y. Tielemans",
+          "age": 26,
+          "number": 8,
+          "position": "Midfielder",
+          "photo": "https://media-3.api-sports.io/football/players/2926.png"
+        },
+        {
+          "id": 78,
+          "name": "H. Vanaken",
+          "age": 31,
+          "number": 20,
+          "position": "Midfielder",
+          "photo": "https://media-3.api-sports.io/football/players/78.png"
+        },
+        {
+          "id": 2927,
+          "name": "M. Batshuayi",
+          "age": 30,
+          "number": 23,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/2927.png"
+        },
+        {
+          "id": 1422,
+          "name": "J. Doku",
+          "age": 21,
+          "number": 25,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/1422.png"
+        },
+        {
+          "id": 2296,
+          "name": "E. Hazard",
+          "age": 32,
+          "number": 10,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/2296.png"
+        },
+        {
+          "id": 907,
+          "name": "R. Lukaku",
+          "age": 30,
+          "number": 9,
+          "position": "Attacker",
+          "photo": "https://media-3.api-sports.io/football/players/907.png"
+        },
+        {
+          "id": 332,
+          "name": "D. Mertens",
+          "age": 36,
+          "number": 14,
+          "position": "Attacker",
+          "photo": "https://media-3.api-sports.io/football/players/332.png"
+        },
+        {
+          "id": 86,
+          "name": "L. Openda",
+          "age": 23,
+          "number": 24,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/86.png"
+        },
+        {
+          "id": 1946,
+          "name": "L. Trossard",
+          "age": 29,
+          "number": 17,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/1946.png"
+        }
+      ]
+    }
+  ]
+}

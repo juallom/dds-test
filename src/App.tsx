@@ -1,26 +1,53 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { lazy, Suspense } from "react";
+import { Routes, Route } from "react-router-dom";
+import { Alert, AlertIcon, Text } from "@chakra-ui/react";
+import { Landing } from "./pages/landing";
+import { AppRoute } from "./enums";
+import { PageLoader } from "./components";
+import { PlayersList } from "./pages/manager/components/PlayersList";
+import { Page404 } from "./components/Page404";
 
-function App() {
+const Manager = lazy(() => import("./pages/manager/Manager"));
+const MyTeam = lazy(() => import("./pages/my-team/MyTeam"));
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <>
+      <Routes>
+        <Route path={AppRoute.LANDING} element={<Landing />} />
+        <Route
+          path={AppRoute.MANAGER}
+          element={
+            <Suspense fallback={<PageLoader label={"Loading manager."} />}>
+              <Manager />
+            </Suspense>
+          }
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Route path={AppRoute.MANAGER_COUNTRY} element={<PlayersList />} />
+          <Route
+            path={""}
+            element={
+              <>
+                <Alert status="info">
+                  <AlertIcon />
+                  <Text>Select a country to show players list.</Text>
+                </Alert>
+              </>
+            }
+          />
+        </Route>
+        <Route
+          path={AppRoute.MY_TEAM}
+          element={
+            <Suspense fallback={<PageLoader label={"Loading my team."} />}>
+              <MyTeam />
+            </Suspense>
+          }
+        />
+        <Route path={"*"} element={<Page404 />} />
+      </Routes>
+    </>
   );
-}
+};
 
 export default App;

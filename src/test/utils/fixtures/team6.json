@@ -1,0 +1,231 @@
+{
+  "get": "players/squads",
+  "parameters": {
+    "team": "6"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "team": {
+        "id": 6,
+        "name": "Brazil",
+        "logo": "https://media-3.api-sports.io/football/teams/6.png"
+      },
+      "players": [
+        {
+          "id": 280,
+          "name": "Alisson",
+          "age": 31,
+          "number": 1,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/280.png"
+        },
+        {
+          "id": 2410,
+          "name": "Weverton",
+          "age": 36,
+          "number": 12,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/2410.png"
+        },
+        {
+          "id": 617,
+          "name": "Ederson",
+          "age": 30,
+          "number": 23,
+          "position": "Goalkeeper",
+          "photo": "https://media-3.api-sports.io/football/players/617.png"
+        },
+        {
+          "id": 256,
+          "name": "Dani Alves",
+          "age": 40,
+          "number": 13,
+          "position": "Defender",
+          "photo": "https://media-3.api-sports.io/football/players/256.png"
+        },
+        {
+          "id": 257,
+          "name": "Marcos Aoás Corrêa",
+          "age": 29,
+          "number": 4,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/257.png"
+        },
+        {
+          "id": 618,
+          "name": "Danilo",
+          "age": 32,
+          "number": 2,
+          "position": "Defender",
+          "photo": "https://media-3.api-sports.io/football/players/618.png"
+        },
+        {
+          "id": 259,
+          "name": "Thiago Emiliano da Silva",
+          "age": 39,
+          "number": 3,
+          "position": "Defender",
+          "photo": "https://media-3.api-sports.io/football/players/259.png"
+        },
+        {
+          "id": 860,
+          "name": "Alex Sandro",
+          "age": 32,
+          "number": 6,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/860.png"
+        },
+        {
+          "id": 372,
+          "name": "Éder Gabriel Militão",
+          "age": 25,
+          "number": 14,
+          "position": "Defender",
+          "photo": "https://media-3.api-sports.io/football/players/372.png"
+        },
+        {
+          "id": 378,
+          "name": "Alex Nicolao Telles",
+          "age": 31,
+          "number": 16,
+          "position": "Defender",
+          "photo": "https://media-3.api-sports.io/football/players/378.png"
+        },
+        {
+          "id": 30497,
+          "name": "Bremer",
+          "age": 26,
+          "number": 24,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/30497.png"
+        },
+        {
+          "id": 747,
+          "name": "Casemiro",
+          "age": 31,
+          "number": 5,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/747.png"
+        },
+        {
+          "id": 10168,
+          "name": "Éverton Ribeiro",
+          "age": 34,
+          "number": 22,
+          "position": "Midfielder",
+          "photo": "https://media-3.api-sports.io/football/players/10168.png"
+        },
+        {
+          "id": 10135,
+          "name": "Bruno Guimarães",
+          "age": 26,
+          "number": 17,
+          "position": "Midfielder",
+          "photo": "https://media-3.api-sports.io/football/players/10135.png"
+        },
+        {
+          "id": 905,
+          "name": "Fred",
+          "age": 30,
+          "number": 8,
+          "position": "Midfielder",
+          "photo": "https://media-3.api-sports.io/football/players/905.png"
+        },
+        {
+          "id": 299,
+          "name": "Fabinho",
+          "age": 30,
+          "number": 15,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/299.png"
+        },
+        {
+          "id": 1646,
+          "name": "Lucas Paquetá",
+          "age": 26,
+          "number": 7,
+          "position": "Midfielder",
+          "photo": "https://media-3.api-sports.io/football/players/1646.png"
+        },
+        {
+          "id": 10321,
+          "name": "Pedro",
+          "age": 26,
+          "number": 25,
+          "position": "Attacker",
+          "photo": "https://media-3.api-sports.io/football/players/10321.png"
+        },
+        {
+          "id": 276,
+          "name": "Neymar",
+          "age": 31,
+          "number": 10,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/276.png"
+        },
+        {
+          "id": 2413,
+          "name": "Richarlison",
+          "age": 26,
+          "number": 9,
+          "position": "Attacker",
+          "photo": "https://media-3.api-sports.io/football/players/2413.png"
+        },
+        {
+          "id": 643,
+          "name": "Gabriel Jesus",
+          "age": 26,
+          "number": 18,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/643.png"
+        },
+        {
+          "id": 1496,
+          "name": "Raphinha",
+          "age": 27,
+          "number": 11,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/1496.png"
+        },
+        {
+          "id": 9971,
+          "name": "Antony",
+          "age": 23,
+          "number": 19,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/9971.png"
+        },
+        {
+          "id": 127769,
+          "name": "Gabriel Martinelli",
+          "age": 22,
+          "number": 26,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/127769.png"
+        },
+        {
+          "id": 762,
+          "name": "Vinícius Júnior",
+          "age": 23,
+          "number": 20,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/762.png"
+        },
+        {
+          "id": 10009,
+          "name": "Rodrygo",
+          "age": 22,
+          "number": 21,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/10009.png"
+        }
+      ]
+    }
+  ]
+}

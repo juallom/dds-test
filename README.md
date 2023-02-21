@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## API secrets in development
+
+In development the project is configured to proxy requests to the API. Copy the contents of `.env.example` to `.env` and replace `<RAPIDAPI_TOKEN>` and `<RAPIDAPI_HOST>` with your API secrets.
+
+## API secrets in Netlify
+
+Netlify's deployment is configured to proxy requests to the API. Copy the contents of `netlify.toml.example` to `netlify.toml` and replace `<RAPIDAPI_TOKEN>` and `<RAPIDAPI_HOST>` with your API secrets.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -28,6 +36,12 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run deploy`
+
+**Prerequisites: `npm i -g netlify-cli` and `npm run build`**
+
+Only local deployment has been configured, the build is deployed using [Netlify](https://docs.netlify.com/).
 
 ### `npm run eject`
 
