@@ -31,6 +31,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --coverage .",
+    "test:staged": "react-scripts test --coverage . --watchAll=false",
     "eject": "react-scripts eject",
     "deploy": "netlify deploy --dir=build --prod"
   },
@@ -67,7 +68,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && npm run test -- --coverage ."
+      "pre-commit": "lint-staged && npm run test:staged"
     }
   },
   "lint-staged": {
