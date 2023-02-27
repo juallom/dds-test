@@ -31,10 +31,10 @@ export const fillSideEffectsState = (players: Player[]): SideEffectsState => {
     },
     [[], [], [], []]
   );
-  const pg = TeamMinRequirements.Goalkeeper - positions[0].length;
-  const pd = TeamMinRequirements.Defender - positions[1].length;
-  const pm = TeamMinRequirements.Midfielder - positions[2].length;
-  const pa = TeamMinRequirements.Attacker - positions[3].length;
+  const pG = TeamMinRequirements.Goalkeeper - positions[0].length;
+  const pD = TeamMinRequirements.Defender - positions[1].length;
+  const pM = TeamMinRequirements.Midfielder - positions[2].length;
+  const pA = TeamMinRequirements.Attacker - positions[3].length;
   return {
     playerIds: new Set([...players.map((p) => p.id)]),
     countedByCountry: count,
@@ -42,10 +42,10 @@ export const fillSideEffectsState = (players: Player[]): SideEffectsState => {
     defenders: positions[1],
     midfielders: positions[2],
     attackers: positions[3],
-    pendingGoalkeepers: pg < 0 ? 0 : pg,
-    pendingDefenders: pd < 0 ? 0 : pd,
-    pendingMidfielders: pm < 0 ? 0 : pm,
-    pendingAttackers: pa < 0 ? 0 : pa,
+    pendingGoalkeepers: pG < 0 ? 0 : pG,
+    pendingDefenders: pD < 0 ? 0 : pD,
+    pendingMidfielders: pM < 0 ? 0 : pM,
+    pendingAttackers: pA < 0 ? 0 : pA,
     countDisplay: `${players.length} / ${MAX_TEAM_COUNT} Players`,
   };
 };

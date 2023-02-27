@@ -120,12 +120,10 @@ export const buildPendingErrorMessage = (
       `${pendingAttackers} attacker${pendingAttackers > 1 ? "s" : ""}`
     );
 
-  return (() => {
-    if (pendingMessages.length === 1) {
-      return pendingMessages[0];
-    } else {
-      const popped = pendingMessages.pop();
-      return `${pendingMessages.join(", ")} and ${popped}`;
-    }
-  })();
+  if (pendingMessages.length === 1) {
+    return pendingMessages[0];
+  } else {
+    const popped = pendingMessages.pop();
+    return `${pendingMessages.join(", ")} and ${popped}`;
+  }
 };

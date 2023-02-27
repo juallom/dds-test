@@ -9,7 +9,7 @@ import {
 } from "../../types";
 
 const BASE_PATH = "/v3";
-const WC_ID = 1;
+const WORLD_CUP_ID = 1;
 const SEASON = 2022;
 
 type ApiRoutesKeys = "COUNTRIES" | "PLAYERS" | "COACHES";
@@ -23,7 +23,7 @@ export class ApiFootballClient {
   static async getCountries(): Promise<Country[]> {
     const cupParticipantsResponse = await axios.get<
       ResponseDTO<CupParticipantDTO[]>
-    >(`${ApiRoutes.COUNTRIES}?league=${WC_ID}&season=${SEASON}`);
+    >(`${ApiRoutes.COUNTRIES}?league=${WORLD_CUP_ID}&season=${SEASON}`);
 
     const participants = cupParticipantsResponse.data.response;
 
